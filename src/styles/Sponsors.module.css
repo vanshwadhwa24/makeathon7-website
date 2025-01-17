@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    background: url("/Sponsors/background.png");
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    padding: 20px; /* Adjust as needed */
+}
+
+.sponsors {
+    /* Add other styles as needed */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    width: 100px;
+}
+
