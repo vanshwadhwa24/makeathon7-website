@@ -1,25 +1,40 @@
-.row{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-}
-
-.filespagebgleft{
-    background-color: #9E9683;   
-    margin: 3vw;
-    rotate: 6deg;
-    height: 90vh;
-    width: 35vw;
+    height: 100vh;
+    background-image: url('../public/Sponsors/pages-upscaled.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
 }
 
-.filespagebgright{
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    position: relative;
+}
+
+
+.filespagebgleft {
     background-color: #9E9683;
-    margin: 3vw;
+    margin: -20vw;
+    rotate: 6deg;
+    height: 85vh;
+    width: 20vw;
+    position: relative;
+}
+
+.filespagebgright {
+    background-color: #9E9683;
+    margin: 18vw;
     rotate: -6deg;
-    height: 90vh;
-    width: 35vw;
+    height: 85vh;
+    width: 15vw; 
     position: relative;
 }
 
